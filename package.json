@@ -1,0 +1,27 @@
+{
+  "name": "hw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "compile": "babel src --presets @babel/react src --out-dir public",
+    "watch": "babel src --presets @babel/react src --out-dir public --watch --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@babel/cli": "^7.24.1",
+    "@babel/core": "^7.24.4",
+    "@babel/preset-react": "^7.24.1",
+    "nodemon": "^3.1.0",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "json": "^11.0.0"
+  }
+}
